@@ -1,0 +1,13 @@
+Site içeriði ; Spor Salonu , Fitness alaný ile ilgi ticari bir web sitedir.
+
+Site açýklamasý;Site tek sayfa üzerine paralel konumlandýrýlmýþ 2 sayfa arasýna 2 adet bant çekilerek dekore edilmiþtir
+-Site navigasyonunda týklanan ilgili alana ayný sayfada aþaðý veya yukarý hareket ederek gidilir.
+-Tek sayfa üzerine bantlar ile beraber toplamda 4 ayrý sayfa mevcuttur.
+-Hakkýmýzda ve Misyon bölümlerinin boþ býrakýlma sebebi sitemin pek bir fonksiyonunun olmamasýna raðmen sadece css'in 
+120 küsür kod satýrýnýn olmasý.Yani css kodlarý ile ilgili alanlara kodlar ile tek tek müdahale ettiðimiz için kod
+satýrlarýnýnnçok fazla olmasý.
+
+Yorum satýrlarý ; Ürettiðimiz yazýlým ürününe her hangi bir acil durum veya site bakým, onarým durumlarýnda satýr
+aralarýna veya kod bloklarý arasýna yazdýðýmýz yorumlardan yardým alýrýz.Nerdeyse bütün satýrlara yorum býrakmamýn
+sebebi bir kaç zaman sonra açýp yaptýklarýma bakmak ve gerekirse bu arþivlerden yardým almak.
+

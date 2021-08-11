@@ -1,0 +1,132 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;	
+}
+body,html{ /* body ve html'ye bu özellikleri ekler.*/
+	height: 100%; 
+}
+.menu{
+	position: fixed; /* menü'nün üstte sabit kalmasını sağlar.*/
+	width: 100%; /* genişlik */
+	text-align: center; /*menünün ortada olmasını sağlar. */
+	line-height: 80px; /* yazıyı biraz aşağı alır */
+	z-index: 9999; /* yazının üstte görünmesin sağlar */	
+}
+.menu a{
+	color: white; /* yazı rengi */
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";  /* yazı türü */
+	text-decoration: none; /* yazının altındaki çizgileri yok eder */
+	padding: 7px 7px; /* her bir sekmenin genişliğini ayarlar. */
+	transition: 1s; /* sekmenin arka planındaki renge efekt ekler ve bunu 1 saniyede yapar */
+}
+nav a:hover{ /* navigasyon menümüzün özelliklerini değiştirir. ve hover efekti ekler */
+	background-color: white; /* arka plan rengi */
+	color: #0E2929; 
+}
+.sayfa{ /* Bu özellikler .sayfa adresine etki eder.*/
+	height: 100%; /* .sayfa 'nın büyüklüğüdür. */
+	background-size: cover;    /* fotoğrafı sayfaya sığdırır. */
+	background-attachment: fixed; /* fotoğraflar sabit kalır bantlar hareket eder. */		
+}
+ 
+#s1{
+	background-image: url("images/image1.jpg"); /*belirtilen adrese fotoğraf ekler */
+	
+}
+#s1 .filtre{ /* filtre sayfaımızın 100%'ünü kaplasın rengi siyah olsun ve hassaslığı 0.7 olsun dedik ve bu filtreyi bütün divlere ekledik */
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	z-index: 0; /* yazının üstte görünmesin sağlar */
+	opacity: 0.7; 	
+}
+#s5{
+	background-image: url("images/image1.jpg"); /*belirtilen adrese fotoğraf ekler */
+	
+}
+#s5 .filtre{ /* filtre sayfaımızın 100%'ünü kaplasın rengi siyah olsun ve hassaslığı 0.7 olsun dedik ve bu filtreyi bütün divlere ekledik */
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	z-index: 0; /* yazının üstte görünmesin sağlar */
+	opacity: 0.7; 	
+}
+#s1 .yazi{
+	position: absolute; /* yazının fotoğraf üstünegelmesini sağlar.*/
+	height: 100%;
+	width: 100%;
+	color: white;
+	z-index: 1; /* yazının üstte görünmesin sağlar */
+	margin-top: 25%; /* yazıyı ortalamak için üstten 25px boşluk bırakır */
+	text-align: center; /* yazıyı sayfanın ortasına aldık */
+}
+
+#s1 .yazi h1{ /* h1 içinde yazılan yazıya özellik ekler (barlin fitness yazısı) */
+	color: #F3F8E9;
+	font-size: 4em;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding-bottom: 25px;
+}
+#s1 .yazi p{  /* p içinde yazılan yazıya özellik ekler */
+	color: #F3F8E9;
+	font-size: 1.4em;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";		
+}
+
+.bant{ /* Bütün bantlara bu özellikleri ekler.*/
+	height: 50%; /* .bant 'ın büyüklüğüdür. */
+	background-color: #19270D; /*arka plan regi kodu koyu yeşil */
+}
+#s3{
+	background-image: url("images/image2.jpg");
+}
+#s3 .filtre{ /* filtre sayfaımızın 100%'ünü kaplasın rengi siyah olsun ve hassaslığı 0.7 olsun dedik ve bu filtreyi bütün divlere ekledik */
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7; 
+}
+#s4 .sosyal ul{
+	display: flex;
+	text-align: center;
+	position: absolute;
+	padding-left: 35%;
+}
+#s4 .sosyal ul li{
+	background: black;
+	margin: 8px;
+	list-style: none;
+	font-size: 30px;
+	transition: .5s;
+}
+#s4 .sosyal ul li a{
+	width: 40px;
+	padding: 6px 0;
+	display: block; 
+	color: white;
+}
+#s4 .sosyal ul li:nth-child(1){background: #3b5998;}
+#s4 .sosyal ul li:nth-child(2){background: #00aced;}
+#s4 .sosyal ul li:nth-child(3){background: #007bb6;}
+#s4 .sosyal ul li:nth-child(4){background: #cb2027;}
+#s4 .sosyal ul li:nth-child(5){background: #bb0000;}
+#s4 .sosyal ul li:nth-child(6){background: #dd4b39;}
+#s4 .sosyal ul li:hover{
+	transform: translateY(-8px);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.6);
+}
+#s4 .sosyal h1{
+	padding-top: 6%;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #F3F8E9;
+	text-align: center;
+}
+#s4 .sosyal p{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #F3F8E9;
+	font-size: 20px;
+	text-align: center;
+}
