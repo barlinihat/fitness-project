@@ -1,13 +1,11 @@
-Site içeriği ; Spor Salonu , Fitness alanı ile ilgi ticari bir web sitedir.
+Site iÃ§eriÄŸi ; Spor Salonu , Fitness alanÄ± ile ilgi ticari bir web sitedir.
 
-Site açıklaması;Site tek sayfa üzerine paralel konumlandırılmış 2 sayfa arasına 2 adet bant çekilerek dekore edilmiştir
--Site navigasyonunda tıklanan ilgili alana aynı sayfada aşağı veya yukarı hareket ederek gidilir.
--Tek sayfa üzerine bantlar ile beraber toplamda 4 ayrı sayfa mevcuttur.
--Hakkımızda ve Misyon bölümlerinin boş bırakılma sebebi sitemin pek bir fonksiyonunun olmamasına rağmen sadece css'in 
-120 küsür kod satırının olması.Yani css kodları ile ilgili alanlara kodlar ile tek tek müdahale ettiğimiz için kod
-satırlarınınnçok fazla olması.
+Site aÃ§Ä±klamasÄ±;Site tek sayfa Ã¼zerine paralel konumlandÄ±rÄ±lmÄ±ÅŸ 2 sayfa arasÄ±na 2 adet bant Ã§ekilerek dekore edilmiÅŸtir
+-Site navigasyonunda tÄ±klanan ilgili alana aynÄ± sayfada aÅŸaÄŸÄ± veya yukarÄ± hareket ederek gidilir.
+-Tek sayfa Ã¼zerine bantlar ile beraber toplamda 4 ayrÄ± sayfa mevcuttur.
 
-Yorum satırları ; Ürettiğimiz yazılım ürününe her hangi bir acil durum veya site bakım, onarım durumlarında satır
-aralarına veya kod blokları arasına yazdığımız yorumlardan yardım alırız.Nerdeyse bütün satırlara yorum bırakmamın
-sebebi bir kaç zaman sonra açıp yaptıklarıma bakmak ve gerekirse bu arşivlerden yardım almak.
+
+Yorum satÄ±rlarÄ± ; ÃœrettiÄŸimiz yazÄ±lÄ±m Ã¼rÃ¼nÃ¼ne her hangi bir acil durum veya site bakÄ±m, onarÄ±m durumlarÄ±nda satÄ±r
+aralarÄ±na veya kod bloklarÄ± arasÄ±na yazdÄ±ÄŸÄ±mÄ±z yorumlardan yardÄ±m alÄ±rÄ±z.Nerdeyse bÃ¼tÃ¼n satÄ±rlara yorum bÄ±rakmamÄ±n
+sebebi bir kaÃ§ zaman sonra aÃ§Ä±p yaptÄ±klarÄ±ma bakmak ve gerekirse bu arÅŸivlerden yardÄ±m almak.
 
